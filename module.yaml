@@ -1,0 +1,7 @@
+module_name: Upixels-LC302-3C
+serial_config:
+    - command: upixels_lc302_3c start -d ${SERIAL_DEV}
+      port_config_param:
+        name: SENS_UPIXELS_CFG
+        group: Sensors
+      label: Upixels Flow
